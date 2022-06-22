@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  padding-bottom: 50px;
+}
+
+.main-container{
+    margin-top: 20px;
+}
+
+.card-img-top{
+  height: 73%;
+  width: 29%;
+}
+
+.card-columns{
+  margin-right: 255px;
+  margin-left: 255px;
+}
+
+h1{
+  color: rgba(0, 157, 255, 0.594);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h6{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 185%;
+}
+
+h3{
+  margin-left: 255px;
+}
+
+.card-text{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-muted{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-block{
+  margin-left: 112px;
+}
+
+.description{
+  text-align: justify;
+}
+
+.img-logo{
+  width: 150px;
+}
+
+
+
+/*Animaciones*/
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
